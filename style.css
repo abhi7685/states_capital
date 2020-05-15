@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    color: white;
+    background-color:#202020;
+    
+}
+.wrapper{
+    margin: 10px 0;
+    border: 2px solid red;
+    width: 50%;
+    padding: 20px 10px;
+    overflow-y:auto;
+}
+.wrapper .input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+
+}
+#inputtext{
+    width: 60%;
+    height: 30px;
+}
+.d{
+    background-color: gray;
+    height: 80px;
+    padding: 10px 5px;
+}
